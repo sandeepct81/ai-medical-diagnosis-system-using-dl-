@@ -1,0 +1,12 @@
+streamlit
+torch
+torchvision
+Pillow
+pandas
+numpy
+joblib
+scikit-learn
+speechrecognition
+pyttsx3
+google-generativeai
+comtypes
