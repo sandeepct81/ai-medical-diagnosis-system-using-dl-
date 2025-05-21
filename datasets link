@@ -1,0 +1,53 @@
+🧬 Disease Symptom Description Dataset
+kaggle link : https://www.kaggle.com/datasets/itachi9604/disease-symptom-description-dataset
+
+Description:
+This dataset contains structured information mapping various diseases to their associated symptoms and short descriptions. It is designed to help in the development of healthcare applications such as symptom checkers and medical chatbots.
+
+Files Included:
+
+dataset.csv — Contains three main columns:
+
+Disease: Name of the disease
+
+Symptoms: List of symptoms associated with the disease (comma-separated)
+
+Description: A brief explanation of the disease
+
+Usage in Project:
+Used to train a machine learning model that predicts the likely disease based on user-inputted symptoms. The model helps in the "🩺 Symptom Checker" tool.
+
+🫁 NIH Chest X-rays Dataset
+Kaggle Link : https://www.kaggle.com/datasets/nih-chest-xrays/data
+
+Description:
+This dataset, provided by the National Institutes of Health (NIH), contains over 100,000 chest X-ray images with annotations of 14 different thoracic disease labels. It is widely used in medical imaging research for detecting abnormalities using deep learning.
+
+Files Included (Main):
+
+images/ — Folder containing chest X-ray images in .png format.
+
+Data_Entry_2017.csv — Metadata file with image names, disease labels, patient info, etc.
+
+Common Diagnoses in Dataset:
+
+Atelectasis
+
+Cardiomegaly
+
+Effusion
+
+Infiltration
+
+Mass
+
+Nodule
+
+Pneumonia
+
+Pneumothorax
+
+And others...
+
+Usage in Project:
+Used to train a custom CNN model to analyze uploaded chest X-rays and predict potential lung conditions. Powers the "🫁 Chest X-ray Analyzer" tool in the app.
